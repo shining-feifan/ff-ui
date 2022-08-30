@@ -1,10 +1,12 @@
 {
-  "name": "ff-ui",
+  "name": "feifan-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/ff-ui.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib":"vue-cli-service build --target lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
